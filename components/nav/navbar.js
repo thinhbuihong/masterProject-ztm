@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-// import { magic } from "../../lib/magic-client";
+import { magic } from "../../lib/magic-client";
 
 const NavBar = () => {
 	const [showDropdown, setShowDropdown] = useState(false);
